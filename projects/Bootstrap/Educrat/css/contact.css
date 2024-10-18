@@ -1,0 +1,121 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid; */
+}
+
+/* HEADER */
+#header1 {
+    background-color: rgb(20, 3, 66);
+}
+
+#header-form i {
+    color: white;
+}
+
+/* MAIN SECTION */
+
+/* HELP */
+#help h2 {
+    color: rgb(20, 3, 66);
+}
+
+#help p {
+    color: rgb(79, 84, 123);
+}
+
+/* PROFILE CARD */
+.card {
+    background-color: rgb(247, 248, 251);
+}
+
+/* NEWS */
+#news-header h2 {
+    color: rgb(20, 3, 66);
+}
+
+#news-header p {
+    color: rgb(79, 84, 123);
+}
+
+/* CONTACT US */
+#contact{
+    background-color: rgb(254,251,244);
+}
+
+#contact h2, #contact-form h4, #contact-form h5 {
+    color: rgb(20, 3, 66);
+}
+
+#contact p, #contact-form p {
+    color: rgb(79, 84, 123);
+}
+
+.contact-details{
+    color: rgb(79, 84, 123);
+}
+
+#contact-form{
+    margin-bottom: 50px;
+}
+#form h4{
+    color: rgb(20, 3, 66);
+}
+
+#form p{
+    color: rgb(79, 84, 123);
+}
+
+#form button{
+    background-color: rgb(100,64,251);
+}
+
+/* FOOTER */
+#footer {
+    background-color: rgb(26, 6, 79);
+}
+
+#footer-mail {
+    background-color: rgb(49, 31, 97);
+}
+
+#footer-app-download1,
+#footer-app-download2 {
+    background-color: rgb(49, 31, 97);
+}
+
+#footer-bottom span {
+    color: rgb(0, 85, 255);
+}
+
+
+@media only screen and (min-width:576px) {}
+
+@media only screen and (min-width:768px) {}
+
+@media only screen and (min-width:992px) {
+    #form-outer{
+        position: relative;
+    }
+
+    #contact-form{
+        margin-bottom: 100px;
+    }
+
+    #form{
+        position: absolute;
+        top: -250px;
+        right: 0px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    #contact-form{
+        margin-bottom: 150px;
+    }
+}
+
+@media only screen and (min-width:1400px){
+    #contact-form{
+        margin-bottom: 200px;
+    }
+}

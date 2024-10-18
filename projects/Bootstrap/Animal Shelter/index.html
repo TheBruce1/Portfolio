@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animal Shelter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/icons/logo.png" />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body onscroll="headerColor()">
+    <section class="container-fluid px-0">
+
+        <!-- HEADER  -->
+        <header id="header" class="">
+            <nav class="navbar navbar-expand-lg fixed-top px-xxl-5">
+                <div class="container-fluid px-xl-5">
+                    <a class="navbar-brand ps-xxl-5" href="#">
+                        <img src="images/icons/logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-white"></span>
+                    </button>
+                    <div class="collapse navbar-collapse pe-xxl-5" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-items">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="#">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="#">CATS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="#">DOGS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="#">VOLUNTEER</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active text-white dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    BLOG
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Blog Home</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="#">CONTACT</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active text-white dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    DROPDOWN
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Elements</a></li>
+                                    <li><a class="dropdown-item" href="#">Item</a></li>
+                                    <li><a class="dropdown-item" href="#">Level 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN SECTION  -->
+        <main>
+
+            <!-- HERO SECTION  -->
+            <section id="hero">
+                <div class="row mx-0 justify-content-center">
+                    <div class="col-11 mx-sm-3 col-xxl-9">
+                        <div class="row">
+                            <div class="col col-sm-10 col-lg-7 col-xl-8">
+                                <h1 class="text-white">ADOPT US. <br />WE NEED YOUR HELP.</h1>
+                                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod temp or
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                <button class="btn btn-light rounded-0 py-0 px-4">FIND A PET TO ADOPT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CAROUSEL SECTION  -->
+
+            <section id="slider" class="row-mx-0">
+                <div class="col">
+                    <div class="row">
+                        <div class="col owl-carousel owl-theme d-flex">
+                            <div class="item">
+                                <img src="images/illustrations/c1.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="images/illustrations/c2.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="images/illustrations/c3.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="images/illustrations/c4.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ADOPTION  -->
+            <section id="adoption" class="row mx-0 justify-content-center my-5">
+                <div class="col col-sm-11 my-5">
+                    <div class="row py-5 justify-content-sm-center row-cols-1 row-cols-lg-2 text-center"
+                        id="adoption-form">
+                        <div class="col col-sm-8 col-md-10 col-lg-9 text-center text-xl-start">
+                            <h2>Please select your favourite pet</h2>
+                        </div>
+                        <div class="col col-lg-3">
+                            <button class="btn btn-warning rounded-0 text-white mt-2 mt-md-4 mt-lg-0">Fill Adoption
+                                Form</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT SECTION  -->
+            <section class="row mx-0 justify-content-center mb-5" id="about">
+                <div class="col ps-0">
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col col-xxl-6">
+                            <img src="images/illustrations/about-img.jpg" alt="about" class="img-fluid">
+                        </div>
+                        <div class="col col-xxl-4 my-5 my-lg-4 mt-xl-5">
+                            <div class="row mt-xxl-5">
+                                <div class="col-10 col-md-11 ms-3 ms-md-4">
+                                    <h2 class="text-dark mb-3">Globally Connected by Large Network</h2>
+                                    <span class="text-dark">We are here to listen from you deliver exellence</span>
+                                    <p class="text-secondary mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.Ut enim ad minim. Lorem ipsum dolor
+                                        sit
+                                        amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                                    <button class="btn btn-warning text-white rounded-0">GET DETAILS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIDEO SECTION  -->
+
+            <section id="video" class="row mx-0 justify-content-center">
+                <div class="col  my-5">
+                    <div class="row row-cols-1 p-3 p-sm-4 justify-content-center">
+                        <div class="col col-lg-8 col-xxl-7 text-center" id="video-img">
+                            <img src="images/icons/play-btn.png" alt="play-btn" class="img-fluid">
+                        </div>
+                        <div class="col col-lg-8 col-xxl-7 text-center mt-lg-4">
+                            <h3 class="mt-4 fs-5 fw-semibold">Watch this video how they live here</h3>
+                            <p class="text-secondary mt-3 fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROCESS SECTION  -->
+
+            <section id="process" class="row mx-0 justify-content-center py-5">
+                <div class="col col-xl-11 col-xxl-10 my-5">
+                    <div class="row row-cols-1">
+                        <div class="col text-center px-5 mb-5">
+                            <h2 class="fw-bold">Process to adopt a pet</h2>
+                            <p class="text-secondary">Who are in extremely love with eco friendly system.</p>
+                        </div>
+                        <div class="col">
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                                <div class="col col-sm-11 col-md-5 mx-auto mb-3">
+                                    <i class="fs-1 fa-regular fa-thumbs-up text-secondary"></i>
+                                    <h5 class="fw-bold fs-5 my-3">Pet Selection</h5>
+                                    <p class="text-secondary fw-light">inappropriate behavior is often laughed off as
+                                        “boys will be boys,” women face
+                                        higher conduct.</p>
+                                </div>
+                                <div class="col col-sm-11 col-md-5 mx-auto mb-3">
+                                    <i class="fs-1 fa-regular fa-user text-secondary"></i>
+                                    <h5 class="fw-bold fs-5 my-3">Meeting Authority</h5>
+                                    <p class="text-secondary fw-light">inappropriate behavior is often laughed off as
+                                        “boys will be boys,” women face
+                                        higher conduct.</p>
+                                </div>
+                                <div class="col col-sm-11 col-md-5 mx-auto mb-3">
+                                    <i class="fs-1 fa-brands fa-wpforms text-secondary"></i>
+                                    <h5 class="fw-bold fs-5 my-3">Adoption Form Filling</h5>
+                                    <p class="text-secondary fw-light">inappropriate behavior is often laughed off as
+                                        “boys will be boys,” women face
+                                        higher conduct.</p>
+                                </div>
+                                <div class="col col-sm-11 col-md-5 mx-auto mb-3">
+                                    <i class="fs-1 fa-solid fa-wand-magic-sparkles text-secondary"></i>
+                                    <h5 class="fw-bold fs-5 my-3">Bring to new Family</h5>
+                                    <p class="text-secondary fw-light">inappropriate behavior is often laughed off as
+                                        “boys will be boys,” women face
+                                        higher conduct.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TESTIMONIALS SECTION -->
+
+            <section id="testimonials" class="row mx-0 justify-content-center my-5">
+                <div class="col my-5">
+                    <div class="row row-cols-1 text-center justify-content-center">
+                        <div class="col">
+                            <h2>Testimonials from our guardians</h2>
+                            <p class="text-secondary">Who are in extremely love with eco friendly system.</p>
+                        </div>
+                        <div class="col col-xxl-10">
+                            <div class="row gx-3 justify-content-center">
+                                <div class="col text-center mt-4">
+                                    <div class="card testimonial-items" onmouseover="hover()">
+                                        <div class="card-body">
+                                            <img src="images/illustrations/t1.png" alt="t1" class="img-fluid">
+                                            <p class="card-text my-3 text-secondary">Accessories here you can find the
+                                                best computer
+                                                accessory for your laptop, monitor, printer, scanner, speaker,
+                                                projector, hardware and more. Laptop accessory</p>
+                                            <h3>Mark Elviro Wiens</h3>
+                                            <span class="text-secondary">CEO at Google</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center mt-4 d-none d-md-block">
+                                    <div class="card testimonial-items" onmouseover="hover()">
+                                        <div class="card-body">
+                                            <img src="images/illustrations/t2.png" alt="t2" class="img-fluid">
+                                            <p class="card-text my-3 text-secondary">Accessories here you can find the
+                                                best computer
+                                                accessory for your laptop, monitor, printer, scanner, speaker,
+                                                projector, hardware and more. Laptop accessory</p>
+                                            <h3>Mark Elviro Wiens</h3>
+                                            <span class="text-secondary">CEO at Google</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center mt-4 d-none d-lg-block">
+                                    <div class="card testimonial-items" onmouseover="hover()">
+                                        <div class="card-body">
+                                            <img src="images/illustrations/t3.png" alt="t3" class="img-fluid">
+                                            <p class="card-text my-3 text-secondary">Accessories here you can find the
+                                                best computer
+                                                accessory for your laptop, monitor, printer, scanner, speaker,
+                                                projector, hardware and more. Laptop accessory</p>
+                                            <h3>Mark Elviro Wiens</h3>
+                                            <span class="text-secondary">CEO at Google</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CALL TO ACTION SECTION  -->
+
+            <section class="row mx-0 justify-content-center" id="cta">
+                <div class="col col-lg-10">
+                    <div class="row text-center row-cols-1 justify-content-center">
+                        <div class="col col-xl-8 text-center">
+                            <div>
+                                <h2 class="text-white">Want to help? Become a Volunteer</h2>
+                            </div>
+                            <div class="text-center">
+                                <p class="text-white my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                    do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit
+                                    amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row row-cols-1 row-cols-sm-2 mt-sm-2 justify-content-center">
+                                <div class="col col-lg-3 px-0">
+                                    <button id="pdf" class="btn btn-light rounded-0">VIEW PDF DETAILS</button>
+                                </div>
+                                <div class="col col-lg-3 px-0 mt-3 mt-sm-0">
+                                    <button id="register" class="btn btn-light rounded-0">REGISTER NOW</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER SECTION  -->
+        <footer>
+
+            <!-- FOOTER TOP  -->
+            <section id="footer-top" class="row mx-0 justify-content-center py-5">
+                <div class="col col-sm-11 col-xxl-10 my-5">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                        <div class="col mb-3">
+                            <h5 class="text-white fw-semibold">About Us</h3>
+                                <p class="text-secondary mt-5">Few would argue that, despite the advanc ements off
+                                    eminism over the past three decades,
+                                    women still face a double standard when it comes to their behavior. While men’s
+                                    borderline-inappropriate behavior. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="col mb-3">
+                            <h5 class="text-white fw-semibold">Useful Links</h3>
+                                <div class="row mt-5">
+                                    <div class="col">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-3"><a href=""
+                                                    class="text-decoration-none text-secondary">Home</a></li>
+                                            <li class="mb-3"><a href=""
+                                                    class="text-decoration-none text-secondary">Service</a></li>
+                                            <li class="mb-3"><a href=""
+                                                    class="text-decoration-none text-secondary">About</a></li>
+                                            <li class="mb-3"><a href="" class="text-decoration-none text-secondary">Case
+                                                    Study</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-3"><a href=""
+                                                    class="text-decoration-none text-secondary">Pricing</a></li>
+                                            <li class="mb-3"><a href=""
+                                                    class="text-decoration-none text-secondary">Team</a></li>
+                                            <li class="mb-3"><a href=""
+                                                    class="text-decoration-none text-secondary">Blog</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col mb-3">
+                            <h5 class="text-white fw-semibold mb-5">Contact Us</h3>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <div><i class="fa-solid fa-house text-white"></i></div>
+                                    </div>
+                                    <div class="col">
+                                        <p class="mb-0 fw-semibold text-white mb-3">Binghamton, New York</p>
+                                        <p class="mb-0 text-secondary mb-3">4343 Hinkle Deegan Lake Road</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <div><i class="fa-solid fa-phone text-white"></i></div>
+                                    </div>
+                                    <div class="col">
+                                        <p class="mb-0 fw-semibold text-white mb-3">00 (953) 9865 562</p>
+                                        <p class="mb-0 text-secondary mb-3">Mon to Fri 9am to 6 pm</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <div><i class="fa-solid fa-envelope text-white"></i></div>
+                                    </div>
+                                    <div class="col">
+                                        <p class="mb-0 fw-semibold text-white mb-3">support@colorlib.com</p>
+                                        <p class="mb-0 text-secondary mb-3">Send us your query anytime!</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- FOOTER BOTTOM -->
+
+            <section id="footer-bottom" class="row mx-0 justify-content-center py-3">
+                <div class="col col-sm-8 text-center">
+                    <p class="mb-0 text-white">Copyright &copy;2024 All Rights Reserved | This template is made by <span
+                            class="fw-bold">Sachin Dhage</span></p>
+                </div>
+            </section>
+        </footer>
+    </section>
+
+    <!-- SCRIPTS  -->
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="js/owl-carousel.js"></script>
+
+</body>
+
+</html>

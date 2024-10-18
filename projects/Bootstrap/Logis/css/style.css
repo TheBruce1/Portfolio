@@ -1,0 +1,100 @@
+* {
+    font-family: "Poppins", sans-serif;
+    /* border: 1px solid */
+}
+
+/* HEADER */
+#header {
+    background-color:rgb(37,50,71);
+}
+
+/* HERO */
+
+#hero {
+    background-image: url(../images/background/bg-hero.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+}
+
+/* PROCESS */
+
+.process-items h3{
+    color: rgb(0,25,115);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.process-items p{
+    color: rgb(99,102,105);
+    font-size: 14px;
+}
+
+/* ABOUT US */
+#about-left ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#about-left h2,h5{
+    color: rgb(0,25,115);
+}
+
+/* SERVICES */
+
+#services h2{
+    color: rgb(0,25,115);;
+}
+
+#cta{
+    background-image: url(../images/background/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* padding: 200px; */
+}
+
+#cta-bg-color{
+    background-color: rgba(23, 23, 66, 0.5);
+    padding: 0px 20px;
+}
+
+/* ACCORDION */
+#accordion h3{
+    color: rgb(0,25,115);
+}
+
+strong{
+    color: rgb(8, 8, 187);
+    font-size: 18px;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(14,29,52);
+}
+
+#footer-top-div1 ul, #footer-top-div2 ul, #footer-top-div3 ul, #footer-top-div4 ul{
+    list-style-type: none;
+}
+
+
+@media only screen and (min-width: 768px){
+    #hero {
+        height: 1300px;
+    }   
+
+    #services-heading p, h2{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #hero {
+        height: 650px;
+    }   
+}
+
+@media only screen and (min-width: 1440px){
+    
+}

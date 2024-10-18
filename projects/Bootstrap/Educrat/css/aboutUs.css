@@ -1,0 +1,134 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid; */
+}
+
+/* HEADER */
+#header1 {
+    background-color: rgb(20, 3, 66);
+}
+
+#header-form i {
+    color: white;
+}
+
+/* MAIN SECTION */
+
+/* ABOUT US */
+#about-top h2{
+    color:  rgb(20, 3, 66);
+}
+
+#about-top p{
+    color: rgb(79,84,123);
+}
+
+#about-top-right h3{
+    color:  rgb(20, 3, 66);
+}
+
+#about-top-right-p1{
+    color: rgb(20,3,66);
+}
+
+#about-top-right-p2{
+    color: rgb(79,84,131);
+}
+
+#about-top-right button{
+    background-color: rgb(100,64,251);
+}
+
+/* PROCESS */
+#process{
+    background-color: rgb(26,6,79);
+}
+
+#process h2 {
+    color: rgb(20, 3, 66);
+}
+
+#process p {
+    color: rgb(161,152,183);
+}
+
+#process-icons i{
+    color: rgb(0,255,132);
+}
+
+/* TESTIMONIALS */
+#testimonials h2{
+    color: rgb(20,3,66);
+}
+
+.testimonials-para{
+    color: rgb(79,84,144);
+}
+
+#carousel-item1, #carousel-item2, #carousel-item3{
+    padding: 220px;
+}
+
+#carousel{
+    background-color: rgb(245,247,254);
+}
+
+.carousel-para{
+    color: rgb(20,3,66);
+}
+
+#carousel-item1, #carousel-item2, #carousel-item3 img{
+    outline-style: 5px solid ;
+}
+
+/* FUTURE LEARN */
+#future h2{
+    color: rgb(20,3,66);;
+}
+
+.future-items{
+    color: rgb(20,3,66);
+}
+
+.future-para{
+    color: rgb(79,84,140);
+}
+
+/* HELP */
+#help h2 {
+    color: rgb(20, 3, 66);
+}
+
+#help p {
+    color: rgb(79, 84, 123);
+}
+
+/* PROFILE CARD */
+.card {
+    background-color: rgb(247, 248, 251);
+}
+
+/* FOOTER */
+#footer {
+    background-color: rgb(26, 6, 79);
+}
+
+#footer-mail {
+    background-color: rgb(49, 31, 97);
+}
+
+#footer-app-download1,
+#footer-app-download2 {
+    background-color: rgb(49, 31, 97);
+}
+
+#footer-bottom span {
+    color: rgb(0, 85, 255);
+}
+
+
+@media only screen and (min-width:576px) {}
+
+@media only screen and (min-width:768px) {}
+
+@media only screen and (min-width:992px) {}

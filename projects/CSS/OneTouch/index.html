@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneTouch</title>
+    <link rel="icon" href="images/background/Logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <section id="nav1">
+            <div id="topbar">
+                <div id="topbar-left">
+                    <div id="topbar-left1">
+                        <ul>
+                            <li><img src="icons/phone.png" alt="phone"></li>
+                            <li> <a href="tel:+38 068 005 3570">+38 068 005 3570</a></li>
+                        </ul>
+                    </div>
+                    <div id="topbar-left2">
+                        <ul>
+                            <li><img src="icons/mail.png" alt="mail"></li>
+                            <li><a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="topbar-right">
+                    <ul>
+                        <li>
+                            <select name="language" id="language">
+                                <option value="English" selected>English</option>
+                                <option value="Italian">Italian</option>
+                                <option value="Spanish">Spanish</option>
+                                <option value="Japanese">Japanese</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select name="currency" id="currency">
+                                <option value="$ US dollar">$ US dollar</option>
+                                <option value="EUR Euro">EUR Euro</option>
+                                <option value="GBP British Pound">GBP British Pound</option>
+                                <option value="JPY Japanese Yen">JPY Japanese Yen</option>
+                            </select>
+                        </li>
+                        <li>
+                            <img src="icons/user.svg" alt="user">
+                            <a href="">Register</a>
+                        </li>
+                        <li>
+                            <a href="">Sign in</a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <section id="nav2">
+            <section id="topbar2">
+                <div id="topbar2-div1">
+                    <a href="">
+                        <img src="images/background/Logo.png" alt="logo">
+                    </a>
+                </div>
+                <div id="topbar2-div2">
+                    <input type="text" name="nav-search" id="nav-search" placeholder="Search for products...">
+                    <select name="nav-categories" id="nav-categories">
+                        <option value="All Categories">All Categories</option>
+                        <option value="Computers">Computers</option>
+                        <option value="Laptops">Laptops</option>
+                        <option value="Cameras">Cameras</option>
+                        <option value="Hardware">Hardware</option>
+                        <option value="Smartphones">Smartphones</option>
+                    </select>
+                    <button><img src="icons/search.png" alt="search" style="height: 15px; width: 20px;"></button>
+                </div>
+                <div id="topbar2-div3">
+                    <div class="topbar2-div3-item1">
+                        <div>
+                            <!-- <img src="icons/heart.png" alt="liked" style="height: 20px; width: 20px;"> -->
+                            <i class="fa-solid fa-heart" style="color: red;"></i>
+                        </div>
+                        <div>
+                            <div>
+                                <a href="" style="text-decoration: none; color: black;">Wishlist</a>
+                            </div>
+                            <!-- <div>
+                                <p>115</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="topbar2-div3-item2">
+                        <div>
+                            <!-- <img src="icons/cart.png" alt="cart" style="height: 20px; width: 20px;"> -->
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div>
+                            <div>
+                                <a href="" style="text-decoration: none; color: black;">Cart</a>
+                            </div>
+                            <!-- <div>
+                                <p>$85</p>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id="nav3">
+            <div id="nav3-div1">
+                <div>
+                    <a href="">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+                <div>
+                    <p>CATEGORIES</p>
+                    <select name="categories" id="categories">
+                        <option value="categories" selected>Categories</option>
+                        <option value="computers & laptops">Computers & Laptops</option>
+                        <option value="cameras & photos">Cameras & Photos</option>
+                        <option value="hardware">Hardware</option>
+                        <option value="smartphoness & tablets">Smartphones & Tablets</option>
+                        <option value="tv & audio">TV & Audio</option>
+                        <option value="gadgets">Gadgets</option>
+                        <option value="car electronics"> Car Electronics</option>
+                        <option value="video games & consoles">Video Games & Consoles</option>
+                        <option value="accessories">Accessories</option>
+                    </select>
+                </div>
+            </div>
+            <div id="nav3-div2">
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        <select name="deals" id="deals">
+                            <option value="super deals" selected>Super Deals</option>
+                            <option value="menu item1">Menu Item1</option>
+                            <option value="menu item2">Menu Item2</option>
+                            <option value="menu item3">Menu Item3</option>
+                            <option value="menu Item4">Menu Item4</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select name="brands" id="brands">
+                            <option value="featured brands" selected>Featured Brands</option>
+                            <option value="brand item1">Brand Item1</option>
+                            <option value="brand item2">Brand Item2</option>
+                            <option value="brand item3">Brand Item3</option>
+                            <option value="brand item4">Brand Item4</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select name="pages" id="pages">
+                            <option value="pages" selected>Pages</option>
+                            <option value="shop">Shop</option>
+                            <option value="product">Product</option>
+                            <option value="blog">Blog</option>
+                            <option value="blog post">Blog Post</option>
+                            <option value="regular post">Regular Post</option>
+                            <option value="cart">Cart</option>
+                            <option value="contact">Contact</option>
+                        </select>
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                    <li>
+                        Contact
+                    </li>
+                </ul>
+            </div>
+            <div id="nav3-div3">
+                <p>MENU</p>
+                <i class="fa-solid fa-bars" style="color: white;"></i>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="hero">
+
+            <div id="hero-div1">
+                <div id="hero-p1">
+                    <p>NEW ERA OF SMARTPHONES</p>
+                </div>
+                <div>
+                    <S>$530</S>
+                </div>
+                <div id="hero-p2">
+                    <P>$460</P>
+                </div>
+                <div id="hero-p3">
+                    <p>Apple iphone 6s</p>
+                </div>
+                <div>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+        </section>
+        <section id="delivery">
+            <div class="delivery-items">
+                <div class="delivery-items-img">
+                    <img src="icons/char_1.png" alt="char_1">
+                </div>
+                <div class="delivery-items-data">
+                    <div>
+                        <h4>Free Delivery</h4>
+                    </div>
+                    <div>
+                        <p>from $50</p>
+                    </div>
+                </div>
+            </div>
+            <div class="delivery-items">
+                <div class="delivery-items-img">
+                    <img src="icons/char_2.png" alt="char_2">
+                </div>
+                <div class="delivery-items-data">
+                    <div>
+                        <h4>Free Delivery</h4>
+                    </div>
+                    <div>
+                        <p>from $50</p>
+                    </div>
+                </div>
+            </div>
+            <div class="delivery-items">
+                <div class="delivery-items-img">
+                    <img src="icons/char_3.png" alt="char_3">
+                </div>
+                <div class="delivery-items-data">
+                    <div>
+                        <h4>Free Delivery</h4>
+                    </div>
+                    <div>
+                        <p>from $50</p>
+                    </div>
+                </div>
+            </div>
+            <div class="delivery-items">
+                <div class="delivery-items-img">
+                    <img src="icons/char_4.png" alt="char_4">
+                </div>
+                <div class="delivery-items-data">
+                    <div>
+                        <h4>Free Delivery</h4>
+                    </div>
+                    <div>
+                        <p>from $50</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- POPULAR CATEGORIES -->
+
+        <section id="popular">
+            <div id="popular-items-data">
+                <div>
+                    <h3>Popular Categories</h3>
+                </div>
+                <div id="popular-items-icons">
+                    <div><i class="fa-solid fa-angle-left"></i></div>
+                    <div><i class="fa-solid fa-angle-right"></i></div>
+                </div>
+                <div>
+                    <p>FULL CATALOG</p>
+                </div>
+            </div>
+            <div id="popular-items-list">
+                <div class="popular-items" id="popular-item1">
+                    <div>
+                        <img src="images/illustrations/popular_1.png" alt="popular_1">
+                    </div>
+                    <div>
+                        <p>Smartphones <br>& Tablets</p>
+                    </div>
+                </div>
+                <div class="popular-items" id="popular-item2">
+                    <div>
+                        <img src="images/illustrations/popular_2.png" alt="popular_2">
+                    </div>
+                    <div>
+                        <p>Computers & <br>Laptops</p>
+                    </div>
+                </div>
+                <div class="popular-items" id="popular-item3">
+                    <div>
+                        <img src="images/illustrations/popular_3.png" alt="popular_3">
+                    </div>
+                    <div>
+                        <p>Gadgets</p>
+                    </div>
+                </div>
+                <div class="popular-items" id="popular-item4">
+                    <div>
+                        <img src="images/illustrations/popular_4.png" alt="popular_4">
+                    </div>
+                    <div>
+                        <p>Video Games <br>& Consoles</p>
+                    </div>
+                </div>
+                <div class="popular-items" id="popular-item5">
+                    <div>
+                        <img src="images/illustrations/popular_5.png" alt="popular_5">
+                    </div>
+                    <div>
+                        <p>Accessories</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="laptop">
+            <div id="laptop-div1">
+                <div>
+                    <p id="laptop-div1-p1">Laptops</p>
+                </div>
+                <div id="laptop-div1-h4">
+                    <h4>MacBook Air 13</h4>
+                </div>
+                <div>
+                    <p id="laptop-div1-p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nostrum
+                        odio dolores suscipit
+                    </p>
+                </div>
+                <div class="laptop-div1-icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div id="laptop-div1-button">
+                    <button>Explore</button>
+                </div>
+            </div>
+            <div id="laptop-div2">
+                <img src="images/illustrations/banner_2_product.png" alt="laptop">
+            </div>
+        </section>
+        <section id="reviews">
+            <div id="reviews-div1">
+                <div>
+                    <h4>Latest Reviews</h4>
+                </div>
+                <div>
+                    <a href="#">VIEW ALL <span id="review-span">REVIEWS</span></a>
+                </div>
+            </div>
+            <div id="reviews-div2">
+                <div class="review-items">
+                    <div>
+                        <img src="images/illustrations/review_1.jpg" alt="review_1">
+                    </div>
+                    <div class="review-items-div2">
+                        <div>
+                            <h4>Roberto Sanchez</h4>
+                        </div>
+                        <div class="review-icons">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>
+                                <p class="p1">2 days ago</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde hic fugit
+                                quasi!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-items">
+                    <div>
+                        <img src="images/illustrations/review_2.jpg" alt="review_2">
+                    </div>
+                    <div class="review-items-div2">
+                        <div>
+                            <h4>Roberto Sanchez</h4>
+                        </div>
+                        <div class="review-icons">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>
+                                <p class="p1">2 days ago</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde hic fugit
+                                quasi!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-items" id="review-items3">
+                    <div>
+                        <img src="images/illustrations/review_3.jpg" alt="review_3">
+                    </div>
+                    <div class="review-items-div2">
+                        <div>
+                            <h4>Roberto Sanchez</h4>
+                        </div>
+                        <div class="review-icons">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>
+                                <p class="p1">2 days ago</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde hic fugit
+                                quasi!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="viewed">
+            <div id="viewed-div1">
+                <div>
+                    <h3>Recently Viewed</h3>
+                </div>
+                <div id="viewed-icons">
+                    <div><i class="fa-solid fa-angle-left"></i></div>
+                    <div><i class="fa-solid fa-angle-right"></i></div>
+                </div>
+            </div>
+            <div id="viewed-div2">
+                <div class="viewed-items">
+                    <div>
+                        <img src="images/illustrations/view_1.jpg" alt="view_1">
+                    </div>
+                    <div>
+                        <p><span>$225</span><s>$300</s></p>
+                    </div>
+                    <div>
+                        <a href="#">Beoplay H7</a>
+                    </div>
+                </div>
+                <div class="viewed-items">
+                    <div>
+                        <img src="images/illustrations/view_2.jpg" alt="view_2">
+                    </div>
+                    <div>
+                        <p>$379</p>
+                    </div>
+                    <div>
+                        <a href="#">LUNA Smartphone</a>
+                    </div>
+                </div>
+                <div class="viewed-items">
+                    <div>
+                        <img src="images/illustrations/view_3.jpg" alt="view_3">
+                    </div>
+                    <div>
+                        <p>$225</p>
+                    </div>
+                    <div>
+                        <a href="#">Samsung J730F</a>
+                    </div>
+                </div>
+                <div class="viewed-items" id="viewed-item1">
+                    <div>
+                        <img src="images/illustrations/view_4.jpg" alt="view_4">
+                    </div>
+                    <div>
+                        <p>$379</p>
+                    </div>
+                    <div>
+                        <a href="#">Huawei MediaPad</a>
+                    </div>
+                </div>
+                <div class="viewed-items" id="viewed-item2">
+                    <div>
+                        <img src="images/illustrations/view_5.jpg" alt="view_5">
+                    </div>
+                    <div>
+                        <p><span>$225</span><s>$300</s></p>
+                    </div>
+                    <div>
+                        <a href="#">Sony PS4 Slim</a>
+                    </div>
+                </div>
+                <div class="viewed-items" id="viewed-item3">
+                    <div>
+                        <img src="images/illustrations/view_6.jpg" alt="view_6">
+                    </div>
+                    <div>
+                        <p>$375</p>
+                    </div>
+                    <div>
+                        <a href="#">Speedlink</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <section id="footer-top">
+            <div id="footer-div1">
+                <div>
+                    <h2><a href="#">OneTouch</a></h2>
+                </div>
+                <div id="footer-div1-p1">
+                    <p>Got Question? Call Us 24/7</p>
+                </div>
+                <div id="footer-div1-p2">
+                    <p>+38 068 005 3570</p>
+                </div>
+                <div id="footer-div1-p3">
+                    <p>
+                        17 Princess Road, Londonbr
+                        <br>
+                        Grester London NW18JR, UK
+                    </p>
+                </div>
+                <div id="footer-icons">
+                    <div>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-vimeo-v"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-div2">
+                <div>
+                    <h5>Find it Fast</h5>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">Computers & Laptops</a></li>
+                        <li><a href="#">Cameras & Photos</a></li>
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Smartphones & Tablets</a></li>
+                        <li><a href="#">TV & Audio</a></li>
+                        <li><a href="#">Gadgets</a></li>
+                        <li><a href="#">Car Electronics</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer-div3">
+                <div>
+                    <h5>Devices</h4>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">Video Games & Consoles</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Cameras & Photos</a></li>
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Computers & Laptops</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer-div4">
+                <div>
+                    <h5>Customer Care</h4>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                        <li><a href="#">Wish List</a></li>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Returns / Exchanges</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Product Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="footer-bottom">
+            <p>This template is made by <span>Sachin Dhage</span></p>
+        </section>
+    </footer>
+</body>
+
+</html>

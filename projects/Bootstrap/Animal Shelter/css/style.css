@@ -1,0 +1,220 @@
+/* *{
+    border: 1px solid;
+} */
+
+/* HEADER SECTION  */
+
+.nav-items a{
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+}
+
+/* HERO SECTION  */
+
+#hero{
+    background-image:linear-gradient(rgba(66, 65, 65, 0.5), rgb(66, 65, 65, 0.500)), url("../images/backgrounds/banner-bg.jpg");
+    padding: 230px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero h1{
+    font-family: Poppins, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+#hero p{
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    color: rgb(232,230,231);
+}
+
+#hero button{
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+/* ADOPTION SECTION  */
+#adoption-form{
+    background-color: rgb(249,249,255);
+}
+
+#adoption-form h2{
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+}
+
+#adoption-from button{
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+/* ABOUT SECTION  */
+
+#about h2{
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+}
+
+#about span{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Poppins, sans-serif;
+    line-height: 19px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#about p{
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+}
+
+/* VIDEO SECTION  */
+
+#video-img{
+    background-image:linear-gradient(rgb(51, 49, 49, 0.3), rgb(51, 49, 49, 0.3)), url("../images/backgrounds/video-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0px;
+}
+
+#video h3, p{
+    font-family: Poppins, sans-serif;
+}
+
+/* PROCESS SECTION  */
+
+#process{
+    background-color: rgb(249,249,255);
+    font-family: Poppins, sans-serif;
+}
+
+#process h2{
+    font-size: 36px;
+}
+
+/* TESTIMONIALS SECTION  */
+
+#testimonials{
+    font-family: Poppins, sans-serif;
+}
+
+.testimonial-items{
+    background-color: rgb(249,249,255);
+}
+
+#testimonials h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+}
+
+#testimonials p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+}
+
+#testimonials h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+#cta{
+    background-image: linear-gradient(rgba(255, 191, 0, 0.7), rgba(255, 191, 0, 0.7)), url("../images/backgrounds/call-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+}
+
+#cta h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+}
+
+#cta p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+}
+
+#cta button{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#pdf{
+    padding: 12px 30px;
+}
+
+#register{
+    padding: 12px 40px;
+}
+
+/* FOOTER TOP SECTION  */
+
+#footer-top{
+    font-family: Poppins, sans-serif;
+    background-color: rgb(30,28,39);
+}
+
+
+/* FOOTER BOTTOM SECTION  */
+
+#footer-bottom{
+    background-color: rgb(35,32,46);
+}
+
+#footer-bottom span{
+    color: rgb(250,150,33);
+}
+
+@media only screen and (min-width: 576px){
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 992px){
+    #cta p{
+        align-content: center;
+        /* width: 75%; */
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    #hero{
+        padding: 180px 0px;
+    }
+
+    #hero h1{
+        font-size: 60px;
+        line-height: 72px;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+
+}

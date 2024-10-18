@@ -1,0 +1,1088 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Educrat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="icons/logo.svg">
+</head>
+
+<body>
+    <section class="container-fluid px-0">
+
+
+        <!-- HEADER -->
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top px-xl-5" id="header1">
+                <div class="container-fluid px-0 mx-auto">
+                    <a class="navbar-brand me-0" href="#">
+                        <img src="images/background/logo.svg" alt="logo">
+                    </a>
+                    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-white"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="aboutUs.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white">Events</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Courses
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="#">Web Developer</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Mobile Developer</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Development</a></li>
+                                    <li><a class="dropdown-item text-dark" href="">Digital Marketing</a></li>
+                                    <li><a class="dropdown-item text-dark" href="">Design</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-none d-lg-block d-flex align-items-center" role="search" id="header-form">
+                            <a href="" class="ps-3 text-white"><i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <a href="" class="ps-3 text-white"><i class="fa-solid fa-bag-shopping"></i>
+                                <span
+                                    class="position-absolute top-10 start-200 translate-middle badge rounded-pill bg-danger">
+                                    0
+                                    <span class="visually-hidden">unread messages</span></a>
+                            <a href="" class="ps-3 pe-3 text-decoration-none text-white">Log in</a>
+                            <button class="btn border rounded bg-white text-dark px-4" type="submit">Sign up</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN SECTION -->
+        <main>
+
+            <!-- HERO SECTION -->
+            <section id="hero" class="row mx-auto justify-content-center">
+                <div class="col-10">
+                    <div class="row justify-content-center">
+                        <h2
+                            class="col-12 col-lg-9 offset-2 mx-auto ms-sm-0 mx-lg-auto text-white display-4 text-center fw-semibold py-3 px-0">
+                            Learn Your Way With Educrat
+                            To
+                            <span style="color: rgb(0,255,132); border-bottom: 4px solid rgb(0,255,132);">Web
+                                Design</span>
+                        </h2>
+                        <p class="col-12 text-white text-center">More than 6.500 online courses</p>
+                        <div
+                            class="input-group w-50 bg-white px-0 mb-5 mt-3 col-10 col-lg-10 offset-2 mx-auto rounded-pill border d-none d-md-flex">
+                            <input type="text" class="form-control bg-transparent rounded-pill border-0"
+                                placeholder="What do you want to learn today?" aria-label="Recipient's username"
+                                aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary rounded-pill text-white m-2" type="button"
+                                id="button-addon2"><a href="" class="ps-3 text-white"><i
+                                        class="fa-solid fa-magnifying-glass"></i>
+                                </a>Search</button>
+                        </div>
+                        <div class="col-12 d-md-none">
+                            <div class="row">
+                                <div class="col-12 mb-2">
+                                    <input type="text" class="form-control rounded-pill" id="exampleFormControlInput1"
+                                        placeholder="What do ypu want to learn today?">
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-outline-secondary rounded-pill text-white w-100"
+                                        type="button"><a href="" class="ps-3 text-white"><i
+                                                class="fa-solid fa-magnifying-glass"></i>
+                                        </a>Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-sm-3 my-md-5 text-center px-0">
+                            <div class="row mt-5">
+                                <div class="col-12 col-sm-6 col-lg-4 px-0 mx-auto">
+                                    <img src="icons/hero-1.svg" alt="icon1">
+                                    <p class="text-white fs-5">100,000 online courses</p>
+                                    <p class="text-white">Explor12 a variety of fresh topics</p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 px-0 mx-auto">
+                                    <img src="icons/hero-2.svg" alt="icon2">
+                                    <p class="text-white fs-5">Expert instruction</p>
+                                    <p class="text-white">Find t12e right instructor for you</p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 px-0 mx-auto">
+                                    <img src="icons/hero-3.svg" alt="icon3">
+                                    <p class="text-white fs-5">Lifetime access</p>
+                                    <p class="text-white">Learn on your schedule</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- POPULAR COURSES -->
+            <section id="courses" class="row justify-content-center my-5 mx-0">
+                <div class="col-11 mb-3">
+                    <div class="row mt-3">
+                        <div class="col-12 col-xl-7">
+                            <div class="row">
+                                <h3 class="col-12 fw-bold">Our Most Popular Courses</h3>
+                                <p class="col-12">10,000+ unique online course list designs</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-5 ms-auto">
+                            <div class="row mb-4">
+                                <p class="col-12 col-lg-2 col-xl-3 p-2 mx-lg-auto">Filter By:</p>
+                                <div class="col-4 col-lg-3">
+                                    <a class="nav-link dropdown-toggle text-dark bg-secondary p-2 rounded" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Category
+                                    </a>
+                                    <ul class="dropdown-menu shadow-sm">
+                                        <li><a class="dropdown-item text-secondary" href="#">All</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Design</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Programming</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Art</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Photography</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Animation</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Writing</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 col-lg-3">
+                                    <a class="nav-link dropdown-toggle text-dark bg-secondary p-2 rounded" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Rating
+                                    </a>
+                                    <ul class="dropdown-menu shadow-sm">
+                                        <li><a class="dropdown-item text-secondary" href="#">All</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Great</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Good</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Medium</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Low</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 col-lg-3">
+                                    <a class="nav-link dropdown-toggle text-dark bg-secondary p-2 rounded" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Difficulty
+                                    </a>
+                                    <ul class="dropdown-menu shadow-sm">
+                                        <li><a class="dropdown-item text-secondary" href="#">All</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Hard</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Medium</a></li>
+                                        <li><a class="dropdown-item text-secondary" href="#">Easy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/illustrations/popular-img1.png" class="card-img-top" alt="img-1">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 d-flex">
+                                            <p>4.3</p>
+                                            <ul class="rating d-flex ps-1 pe-2">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p>((1991))</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="" class="text-decoration-none">
+                                                <p class="course-title">Learn Figma - UI/UX Design Essential Training
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row mx-auto justify-content-center">
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon1.svg" alt="1-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">6 Lesson</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon2.svg" alt="2-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">22h 0m</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon3.svg" alt="3-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">Beginner</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-7">
+                                                    <div class="row mx-auto">
+                                                        <img src="images/illustrations/avatar-1.png" alt="avatar"
+                                                            class="col-6 course-author">
+                                                        <p class="col-6 author-name px-0">Steve Roger</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-5 align-items-center">
+                                                    <div class="row">
+                                                        <p class="col-6 text-decoration-line-through">$199</p>
+                                                        <p class="col-6">$79</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/illustrations/popular-img2.png" class="card-img-top" alt="img-2">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 d-flex">
+                                            <p>4.7</p>
+                                            <ul class="rating d-flex ps-1 pe-2">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p>((1991))</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="" class="text-decoration-none">
+                                                <p class="course-title">Complete Python Bootcamp From Zero to Hero in
+                                                    Python
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row mx-auto justify-content-center">
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon1.svg" alt="1-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">6 Lesson</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon2.svg" alt="2-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">6h 50m</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon3.svg" alt="3-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">Expert</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-7">
+                                                    <div class="row mx-auto">
+                                                        <img src="images/illustrations/avatar-1.png" alt="avatar"
+                                                            class="col-6 course-author">
+                                                        <p class="col-6 author-name px-0">Tony Stark</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-5 align-items-center">
+                                                    <div class="row">
+                                                        <p class="col-6 text-decoration-line-through">$189</p>
+                                                        <p class="col-6">$89</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/illustrations/popular-img3.png" class="card-img-top" alt="img-3">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 d-flex">
+                                            <p>4.5</p>
+                                            <ul class="rating d-flex ps-1 pe-2">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p>((1991))</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="" class="text-decoration-none">
+                                                <p class="course-title">Angular - The Complete Guide (2022 Edition)
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row mx-auto justify-content-center">
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon1.svg" alt="1-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">6 Lesson</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon2.svg" alt="2-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">20h 20m</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon3.svg" alt="3-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">Intermediate</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-7">
+                                                    <div class="row mx-auto">
+                                                        <img src="images/illustrations/avatar-1.png" alt="avatar"
+                                                            class="col-6 course-author">
+                                                        <p class="col-6 author-name px-0">Thor</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-5 align-items-center">
+                                                    <div class="row">
+                                                        <p class="col-6 text-decoration-line-through">$249</p>
+                                                        <p class="col-6">$129</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/illustrations/popular-img4.png" class="card-img-top" alt="img-4">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 d-flex">
+                                            <p>4.2</p>
+                                            <ul class="rating d-flex ps-1 pe-2">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p>((1991))</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="" class="text-decoration-none">
+                                                <p class="course-title">The Ultimate Drawing Course Beginner to Advanced
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row mx-auto justify-content-center">
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon1.svg" alt="1-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">6 Lesson</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon2.svg" alt="2-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">17h 0m</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon3.svg" alt="3-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">Expert</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-7">
+                                                    <div class="row mx-auto">
+                                                        <img src="images/illustrations/avatar-1.png" alt="avatar"
+                                                            class="col-6 course-author">
+                                                        <p class="col-6 author-name px-0">Bruce Banner</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-5 align-items-center">
+                                                    <div class="row">
+                                                        <p class="col-6 text-decoration-line-through">$179</p>
+                                                        <p class="col-6">$99</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/illustrations/popular-img5.png" class="card-img-top" alt="img-5">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 d-flex">
+                                            <p>3.8</p>
+                                            <ul class="rating d-flex ps-1 pe-2">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p>((1991))</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="" class="text-decoration-none">
+                                                <p class="course-title">Photography Masterclass: A Complete Guide to
+                                                    Photography
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row mx-auto justify-content-center">
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon1.svg" alt="1-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">6 Lesson</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon2.svg" alt="2-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">4h 10m</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon3.svg" alt="3-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">Intermediate</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-7">
+                                                    <div class="row mx-auto">
+                                                        <img src="images/illustrations/avatar-1.png" alt="avatar"
+                                                            class="col-6 course-author">
+                                                        <p class="col-6 author-name px-0">Hawkeye</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-5 align-items-center">
+                                                    <div class="row">
+                                                        <p class="col-6 text-decoration-line-through">$169</p>
+                                                        <p class="col-6">$79</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/illustrations/popular-img6.png" class="card-img-top" alt="img-6">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 d-flex">
+                                            <p>4.6</p>
+                                            <ul class="rating d-flex ps-1 pe-2">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p>((1991))</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="" class="text-decoration-none">
+                                                <p class="course-title">Complete Blender Creator: Learn 3D Modelling for
+                                                    Beginners
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row mx-auto justify-content-center">
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon1.svg" alt="1-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">6 Lesson</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon2.svg" alt="2-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">13h 20m</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon3.svg" alt="3-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">Expert</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-7">
+                                                    <div class="row mx-auto">
+                                                        <img src="images/illustrations/avatar-1.png" alt="avatar"
+                                                            class="col-6 course-author">
+                                                        <p class="col-6 author-name px-0">Black Widow</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-5 align-items-center">
+                                                    <div class="row">
+                                                        <p class="col-6 text-decoration-line-through">$209</p>
+                                                        <p class="col-6">$99</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/illustrations/popular-img7.png" class="card-img-top" alt="img-7">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 d-flex">
+                                            <p>3.5</p>
+                                            <ul class="rating d-flex ps-1 pe-2">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p>((1991))</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="" class="text-decoration-none">
+                                                <p class="course-title">The Complete Financial Analyst Training &
+                                                    Investing Course
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row mx-auto justify-content-center">
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon1.svg" alt="1-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">6 Lesson</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon2.svg" alt="2-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">8h 10m</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon3.svg" alt="3-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">Intermediate</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-7">
+                                                    <div class="row mx-auto">
+                                                        <img src="images/illustrations/avatar-1.png" alt="avatar"
+                                                            class="col-6 course-author">
+                                                        <p class="col-6 author-name px-0">Nick Fury</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-5 align-items-center">
+                                                    <div class="row">
+                                                        <p class="col-6 text-decoration-line-through">$299</p>
+                                                        <p class="col-6">$149</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/illustrations/popular-img1.png" class="card-img-top" alt="img-8">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 d-flex">
+                                            <p>4.8</p>
+                                            <ul class="rating d-flex ps-1 pe-2">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p>((1991))</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="" class="text-decoration-none">
+                                                <p class="course-title">Photography Masterclass: A Complete Guide to
+                                                    Photography
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row mx-auto justify-content-center">
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon1.svg" alt="1-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">6 Lesson</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon2.svg" alt="2-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">8h 20m</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 px-0">
+                                                    <div class="row course-sessions">
+                                                        <img src="icons/popular-icon3.svg" alt="3-1"
+                                                            class="col-6 px-0 w-25 course-icons">
+                                                        <p class="px-0 col-6">Expert</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-7">
+                                                    <div class="row mx-auto">
+                                                        <img src="images/illustrations/avatar-1.png" alt="avatar"
+                                                            class="col-6 course-author">
+                                                        <p class="col-6 author-name px-0">Agent Coulson</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-5 align-items-center">
+                                                    <div class="row">
+                                                        <p class="col-6 text-decoration-line-through">$219</p>
+                                                        <p class="col-6">$109</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mx-auto text-center">
+                        <button type="button" class="btn btn-outline-primary py-3 px-4 mt-5">View All Courses</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PATH -->
+            <section id="path" class="row justify-content-center mx-0">
+                <div class="col-11">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <h3 class="text-white display-4 fw-bold">Find the right learning path for you</h3>
+                        </div>
+                    </div>
+                    <div class="row text-center mt-2">
+                        <div class="col-12 col-md-6 offset-3 mx-0 mx-md-auto">
+                            <p class="text-white">Match your goals to our programs, explore your options and map out
+                                your path to success.</p>
+                        </div>
+                    </div>
+                    <div class="row text-center mt-3">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light text-white px-4 py-3">Get Started
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SOLUTION -->
+            <section id="solution" class="row justify-content-center my-5 mx-0">
+                <div class="col-11 px-0">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-11 col-lg-6 order-1 order-lg-0 mt-4">
+                            <div class="row">
+                                <div class="col-12" id="solution-heading">
+                                    <h3 class="fw-bold display-5 ">Online learning solutions
+                                        that meet your needs.</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="my-4">Use the list below to bring attention to your product’s key
+                                        differentiator.</p>
+                                </div>
+                            </div>
+                            <div class="row mt-3 mb-3">
+                                <div class="col-2">
+                                    <img src="icons/solution-icon1.svg" alt="1-2">
+                                </div>
+                                <div class="col-10 col-lg-8">
+                                    <div class="row">
+                                        <div>
+                                            <p>Leadership development</p>
+                                            <p class="text-secondary">Lorem ipsum is placeholder text
+                                                commonly used in the graphic, print, and publishing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-2">
+                                    <img src="icons/solution-icon2.svg" alt="2-2">
+                                </div>
+                                <div class="col-10 col-lg-8">
+                                    <div class="row">
+                                        <div class="">
+                                            <p>Digital transformation</p>
+                                            <p class="text-secondary">Lorem ipsum is placeholder text
+                                                commonly used in the graphic, print, and publishing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="icons/solution-icon3.svg" alt="3-2">
+                                </div>
+                                <div class="col-10 col-lg-8">
+                                    <div class="row">
+                                        <div class="">
+                                            <p>Innovation & design thinking</p>
+                                            <p class="text-secondary">Lorem ipsum is placeholder text
+                                                commonly used in the graphic, print, and publishing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-11 col-lg-6">
+                            <div class="row justify-content-center solution-img">
+                                <div class="col-12 col-sm-10 col-lg-12 ms-sm-auto" id="solution-img1">
+                                    <img src="images/illustrations/solution-img1.png" alt="2-1" class="img-fluid">
+                                </div>
+                                <div class="col-12 col-sm-8 mt-2 mt-sm-0" id="solution-img2">
+                                    <img src="images/illustrations/solution-img2.png" alt="2-2" class="img-fluid">
+                                </div>
+                                <div class="badge d-none d-sm-block bg-white shadow-sm col-4" id="badge1">
+                                    <p class="text-primary fs-6 text-start">Congrats!</p>
+                                    <p class="text-dark">Your Admission Completed</p>
+                                </div>
+                                <div class="badge d-none d-lg-block bg-white shadow-sm col-4" id="badge2">
+                                    <p class="text-danger fs-6 text-start">3.000 +</p>
+                                    <p class="text-secondary text-start">Free Courses</p>
+                                </div>
+                                <div class="badge d-none d-lg-block bg-white shadow-sm col-5" id="badge3">
+                                    <div class="row">
+                                        <div class="col-2 pe-auto">
+                                            <img src="images/illustrations/solution-avatar.png" alt="badge-3" class="">
+                                        </div>
+                                        <div class="col-10 ps-auto">
+                                            <div class="row">
+                                                <p class="text-dark fs-6">Ali Tufan</p>
+                                                <p class="text-secondary text-center ps-4">UX/UI Designer</p>
+                                                <ul class="list-unstyled d-flex pe-xxl-0 justify-content-center">
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CATEGORIES -->
+            <section id="category" class="row justify-content-center my-5 mx-0">
+                <div class="col-11">
+                    <div class="row row-cols-1 justify-content-center">
+                        <div class="col text-center mb-4">
+                            <P class="fs-3 fw-bold mb-0" id="category-heading">Top Categories</P>
+                            <P class="text-secondary">Lorem ipsum dolor sit amet, consectetur.</P>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-lg-2">
+                        <div class="col">
+                            <div class="row row-cols-1 row-cols-md-2 g-1">
+                                <div class="col position-relative rounded" id="category1">
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        <p class="text-white">Digital Marketing</p>
+                                        <p class="text-white">573+ Courses</p>
+                                    </div>
+                                </div>
+                                <div class="col position-relative rounded" id="category2">
+                                    <div class="position-absolute start-50 top-50 translate-middle">
+                                        <p class="text-white">Web Development</p>
+                                        <p class="text-white">473+ Courses</p>
+                                    </div>
+                                </div>
+                                <div class="col position-relative rounded" id="category3">
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        <p class="text-white">Graphic Design</p>
+                                        <p class="text-white">583+ Courses</p>
+                                    </div>
+                                </div>
+                                <div class="col position-relative rounded" id="category4">
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        <p class="text-white">Social Sciences</p>
+                                        <p class="text-white">373+ Courses</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col position-relative rounded" id="category5">
+                                <div class="row row-cols-1 g-1">
+                                    <div class="col position-absolute top-50 start-50 translate-middle">
+                                        <p class="text-white">Personal Development</p>
+                                        <p class="text-white">373+ Courses</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="row g-1">
+                                    <div class="col-12 position-relative rounded" id="category6">
+                                        <div class="position-absolute top-50 start-50 translate-middle">
+                                            <p class="text-white">Photography</p>
+                                            <p class="text-white">393+ Courses</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 position-relative rounded" id="category7">
+                                        <div class="position-absolute top-50 start-50 translate-middle">
+                                            <p class="text-white">Arts &amp; Humanities</p>
+                                            <p class="text-white">373+ Courses</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- COMPANIES -->
+            <section id="companies" class="row mx-0 my-5 justify-content-center">
+                <div class="col-11 mt-5">
+                    <div class="row text-center mb-5">
+                        <p>Trusted by the world’s best</p>
+                    </div>
+                    <div class="row row-cols-2 row-cols-sm-3 row-cols-xl-6 text-center">
+                        <div class="col mb-4"><img src="images/illustrations/company1.svg" alt="company1"></div>
+                        <div class="col mb-4"><img src="images/illustrations/company2.svg" alt="company2"></div>
+                        <div class="col mb-4"><img src="images/illustrations/company3.svg" alt="company3"></div>
+                        <div class="col mb-4"><img src="images/illustrations/company4.svg" alt="company4"></div>
+                        <div class="col mb-4"><img src="images/illustrations/company5.svg" alt="company5"></div>
+                        <div class="col mb-4"><img src="images/illustrations/company6.svg" alt="company6"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="row row-cols-1 mx-0 justify-content-center">
+            <section id="footer-top" class="col-11 py-3 border-bottom">
+                <div class="row row-cols-1 row-cols-lg-2 mt-5">
+                    <div class="col-12 col-lg-7">
+                        <p class="text-white">GET IN TOUCH</p>
+                        <div class="input-group rounded-pill mb-3 px-3 py-3" id="footer-mail">
+                            <input type="text" class="form-control bg-transparent border-0" placeholder="Your Email"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn bg-white text-dark rounded-circle" type="button" id="button-addon2">
+                                <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 ms-auto pb-5">
+                        <div class="row my-3">
+                            <div class="col">
+                                <img src="images/background/footer-logo.svg" alt="footer-logo">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <P class="text-white mb-0">Toll Free Customer care </P>
+                                <P class="text-white mb-0">+(1) 123 456 7890</P>
+                            </div>
+                            <div class="col">
+                                <p class="text-white mb-0">Need live support?</p>
+                                <p class="text-white mb-0">hi@educrat.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col-12 col-lg-7">
+                        <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+                            <div class="col mb-3">
+                                <p class="text-white">ABOUT</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">About Us</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Learner Stories</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Careers</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Press</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Leadership</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col mb-3">
+                                <p class="text-white">CATEGORIES</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Development</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Business</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Finance &amp; Accounting</a>
+                                    </li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">IT &amp; Software</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Office Productivity</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Design</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Marketing</a></li>
+                                </ul>
+                            </div>
+                            <div class="col mb-3">
+                                <p class="text-white">OTHERS</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Lifestyle</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Photography &amp; Video</a>
+                                    </li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Health &amp; Fitness</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Music</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">UX Design</a></li>
+                                    <li class="mb-2"><a href="" class="text-white text-decoration-none">SEO</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 ms-auto">
+                        <div class="row row-cols-1 mb-5">
+                            <p class="text-white col">TAKE YOUR LEARNING WITH YOU</p>
+                            <div class="col">
+                                <div class="row row-cols-2 justify-content-center">
+                                    <div class="col-5 p-2 mx-2">
+                                        <div class="row row-cols-2 rounded" id="footer-app-download1">
+                                            <div class="col-3 text-center px-0 fs-2 align-self-center">
+                                                <i class="text-white fa-brands fa-apple"></i>
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="text-white mb-0">Download on the</p>
+                                                <p class="text-white mb-0">Apple Store</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-5 mx-2 p-2">
+                                        <div class="row row-cols-2 rounded" id="footer-app-download2">
+                                            <div class="col-3 text-center px-0 fs-2 align-self-center">
+                                                <i class="text-white fa-brands fa-google-play"></i>
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="text-white mb-0">Get in on</p>
+                                                <p class="text-white mb-0">Google Play</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p class="text-white">FOLLOW US ON SOCIAL MEDIA</p>
+                            <ul class="list-unstyled d-flex">
+                                <li><a href="" class="text-white px-2"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="" class="text-white px-2"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="" class="text-white px-2"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="" class="text-white px-2"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="footer-bottom" class="col-11">
+                <div class="row justify-content-center my-4">
+                    <div class="col-11 text-center">
+                        <p class="text-white mb-0">&copy; 2024 Educrat. All Right Reserved.</p>
+                        <p class="text-white mb-0">This template is made by <span class="fs-5">Sachin Dhage</span></p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

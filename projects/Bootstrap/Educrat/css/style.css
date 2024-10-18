@@ -1,0 +1,293 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid; */
+}
+
+/* HEADER */
+#header1{
+    background-color: rgb(20,3,66);
+}
+
+#header-form i{
+    color: white;
+}
+
+/* HERO SECTION */
+#hero{
+    background-image: url(../images/background/hero-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#hero button{
+    background-color: rgb(100,64,251);
+}
+
+/* POPULAR COURSES */
+#courses h3{
+    color: rgb(20,3,66);
+}
+
+.rating li{
+    list-style-type: none;
+    color: rgb(229,152,25);
+}
+
+.course-title{
+    color: rgb(85,73,119);
+}
+
+.course-sessions p{
+    font-size: 14px;
+}
+
+.course-icons{
+    height: 20px;
+    width: 20px;
+}
+
+.course-author{
+    height: 40px;
+    width: 70px;
+}
+
+.author-name{
+    font-size: 16px;
+}
+
+/* PATH */
+#path{
+    background-image: url(../images/background/path-bg.png);
+    background-repeat: no-repeat;
+    padding: 150px 0px;
+}
+
+/* SOLUTION */
+#solution-heading h3{
+    color: rgb(20,3,66);
+}
+
+/* CATEGORIES */
+#category-heading{
+    color: rgb(20,3,66);
+}
+
+#category1{
+    background-image: url(../images/background/category1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+#category2{
+    background-image: url(../images/background/category2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+#category3{
+    background-image: url(../images/background/category3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+#category4{
+    background-image: url(../images/background/category4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+#category5{
+    background-image: url(../images/background/category5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+#category6{
+    background-image: url(../images/background/category6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+#category7{
+    background-image: url(../images/background/category7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+/* FOOTER */
+#footer{
+    background-color: rgb(26,6,79);
+}
+
+#footer-mail{
+    background-color: rgb(49,31,97);
+}
+
+#footer-app-download1, #footer-app-download2{
+    background-color: rgb(49,31,97);
+}
+
+#footer-bottom span{
+    color: rgb(0, 85, 255);
+}
+
+
+@media only screen and (min-width:576px){
+
+    /* SOLUTION */
+    .solution-img{
+        position: relative;
+        margin-bottom: 150px;
+    }
+
+    #solution-img2{
+        position: absolute;
+        top: 280px;
+        left: 00px;
+    }
+
+    #badge1{
+        position: absolute;
+        top: 450px;
+        left: 220px;
+    }
+
+    /* CATEGORIES */
+    #category1{
+        height: 300px;
+    }
+    
+    #category2{
+        height: 300px;
+    }
+    
+    #category3{
+        height: 300px;
+    }
+    
+    #category4{
+        height: 300px;
+    }
+    
+    #category5{
+        height: 600px;
+    }
+    
+    #category6{
+        height: 300px;
+    }
+    
+    #category7{
+        height: 300px;
+    }
+
+}
+
+@media only screen and (min-width:768px){
+
+    /* SOLUTION */
+    #solution-img2{
+        top: 350px;
+        left: 0px;
+    }
+
+    #badge1{
+        top: 570px;
+        left: 400px;
+    }
+}
+
+@media only screen and (min-width:992px){
+
+    /* SOLUTION */
+    #solution-img2{
+        top: 320px;
+        left: 0px;
+    }
+
+    #badge1{
+        top: 500px;
+        left: 250px;
+    }
+
+    #badge2{
+        position: absolute;
+        top: 290px;
+        left: -20px;
+    }
+
+    #badge3{
+        position: absolute;
+        top: 100px;
+        left: 50px;
+    }
+
+    /* CATEGORIES */
+    #category1{
+        height: 200px;
+    }
+    
+    #category2{
+        height: 200px;
+    }
+    
+    #category3{
+        height: 200px;
+    }
+    
+    #category4{
+        height: 200px;
+    }
+    
+    #category5{
+        height: 400px;
+    }
+    
+    #category6{
+        height: 200px;
+    }
+    
+    #category7{
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+
+    /* SOLUTION */
+    #solution-img2{
+        top: 350px;
+        right: 20px;
+    }
+
+    #badge1{
+        top: 570px;
+        left: 250px;
+    }
+
+    #badge2{
+        top: 315px;
+        left: -80px;
+    }
+
+    #badge3{
+        left: -50px;
+    }
+}
+
+@media only screen and (min-width:1400px){
+
+    /* SOLUTION */
+    #solution-img2{
+        top: 350px;
+        left: -50px;
+    }
+}

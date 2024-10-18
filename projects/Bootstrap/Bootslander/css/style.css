@@ -1,0 +1,287 @@
+/* *{
+    border: 1px solid;
+} */
+
+/* HEADER */
+
+header {
+    background-color: rgba(14, 20, 160,1);
+}
+
+/* HERO */
+#hero {
+    background: url(../images/background/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background: rgba(14, 20, 162, 0.5);
+    background: radial-gradient(circle, rgba(14, 20, 162, 1), rgba(14, 20, 162, 1));
+    background-attachment: fixed;
+}
+
+.span1 {
+    border-bottom: 5px solid rgb(26, 204, 141);
+}
+
+#hero button {
+    background-color: rgb(26, 204, 141);
+}
+
+/* ABOUT */
+
+#about-right h3 {
+    color: rgb(1, 4, 131);
+    font-size: 30px;
+}
+
+#about-right ul {
+    list-style-type: none;
+}
+
+#about-right i {
+    color: rgb(26, 204, 141);
+    font-size: 40px;
+}
+
+/* FEATURES */
+#features span {
+    color: rgb(26, 204, 141);
+}
+
+#features h3 {
+    color: rgb(1, 4, 131);
+    /* letter-spacing: 1px; */
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.feature-items {
+    background-color: rgb(245, 245, 255);
+}
+
+.feature-items p {
+    color: rgb(1, 4, 131);
+}
+
+#item1 i {
+    color: rgb(255, 187, 44);
+}
+
+#item2 i {
+    color: rgb(85, 120, 255);
+}
+
+#item3 i {
+    color: rgb(232, 3, 104);
+}
+
+#item4 i {
+    color: rgb(228, 113, 255);
+}
+
+#item5 i {
+    color: rgb(71, 174, 255);
+}
+
+#item6 i {
+    color: rgb(255, 167, 110);
+}
+
+#item7 i {
+    color: rgb(17, 219, 207);
+}
+
+#item8 i {
+    color: rgb(66, 51, 255);
+}
+
+#item9 i {
+    color: rgb(178, 144, 79);
+}
+
+#item10 i {
+    color: rgb(178, 9, 105);
+}
+
+#item11 i {
+    color: rgb(255, 88, 40);
+}
+
+#item12 i {
+    color: rgb(41, 204, 97);
+}
+
+/* COUNT */
+#count {
+    background-color: rgb(245, 245, 255);
+}
+
+/* GALLERY */
+#gallery span {
+    color: rgb(26, 204, 141);
+}
+
+#gallery h3{
+    color: rgb(1, 4, 131);
+    font-size: 35px;
+    line-height: 40px;
+}
+
+/* TEAM */
+
+#team span {
+    color: rgb(26, 204, 141);
+}
+
+#team h3{
+    color: rgb(1, 4, 131);
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.card-title{
+    padding-left: 60px;
+}
+
+.card-text{
+    padding-left: 60px;
+}
+
+#team-socials{
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+/* FAQ */
+#faq{
+    background-color: rgb(245,245,255);
+}
+
+#faq i{
+    color: rgb(52,229,178);
+}
+
+#faq span {
+    color: rgb(26, 204, 141);
+}
+
+#faq h3{
+    color: rgb(1, 4, 131);
+    font-size: 35px;
+    line-height: 40px;
+}
+
+/* FOOTER */
+
+#footer{
+    background-color: rgb(1,3,81);
+}
+
+#footer-bottom-border{
+    border-bottom: 1px solid rgba(26,204,141,0.2);
+}
+
+#footer-top-1{
+    background-color: rgb(1,2,70);
+    border-top: 4px solid rgb(26,204,141);
+}
+
+#footer-socials, #footer-list1, #footer-list2{
+    list-style-type: none;
+}
+
+#footer-input-group button{
+    background-color: rgb(26,204,141);
+    color: white;
+}
+
+#footer-hr hr{
+    color: rgb(26,204,141);
+}
+
+#footer-bottom span{
+    color: rgb(26,204,141);
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+
+
+
+@media only screen and (min-width:576px){
+    .card-title{
+        padding-left: 170px;
+    }
+    
+    .card-text{
+        padding-left: 200px;
+    }
+    
+    #team-socials{
+        list-style-type: none;
+        padding-left: 190px;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    #hero h2 {
+        font-size: 30px;
+    }
+
+    #hero p {
+        font-size: 20px;
+    }
+
+    .card-title{
+        padding-left: 60px;
+    }
+    
+    .card-text{
+        padding-left: 60px;
+    }
+    
+    #team-socials{
+        list-style-type: none;
+        padding-left: 60px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    #hero-left h2 {
+        font-size: 50px;
+    }
+
+    #about-left img {
+        margin-top: 135px;
+    }
+
+    .card-title{
+        padding-left: 40px;
+    }
+    
+    .card-text{
+        padding-left: 40px;
+    }
+    
+    #team-socials{
+        list-style-type: none;
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #hero-left {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #hero-left {
+        margin-top: 100px;
+    }
+
+    #about-left img {
+        margin-top: 100px;
+    }
+}
